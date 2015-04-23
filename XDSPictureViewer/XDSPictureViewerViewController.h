@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface PictureViewerViewController : UIViewController
+@interface XDSPictureViewerViewController : UIViewController
 
 @property (strong, nonatomic) NSArray * imageListArray;//图片数组，数组元素为UIImage，也可根据需要修改
 

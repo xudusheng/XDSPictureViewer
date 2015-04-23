@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-#import "PictureViewerViewController.h"
+#import "XDSPictureViewerViewController.h"
 @interface AppDelegate ()
 
 @end
@@ -26,7 +26,7 @@
         [imageListArray addObject:image];
     }
     
-    PictureViewerViewController * pic = [[PictureViewerViewController alloc]init];
+    XDSPictureViewerViewController * pic = [[XDSPictureViewerViewController alloc]init];
     pic.imageListArray = imageListArray;
     self.window.rootViewController = pic;
     [self.window makeKeyAndVisible];

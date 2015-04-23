@@ -12,7 +12,7 @@
 		094C98AF1AE8D8CB00214965 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 094C98AE1AE8D8CB00214965 /* Images.xcassets */; };
 		094C98B21AE8D8CB00214965 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 094C98B01AE8D8CB00214965 /* LaunchScreen.xib */; };
 		094C98BE1AE8D8CB00214965 /* XDSPictureViewerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 094C98BD1AE8D8CB00214965 /* XDSPictureViewerTests.m */; };
-		094C98C91AE8D90F00214965 /* PictureViewerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 094C98C81AE8D90F00214965 /* PictureViewerViewController.m */; };
+		094C98C91AE8D90F00214965 /* XDSPictureViewerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 094C98C81AE8D90F00214965 /* XDSPictureViewerViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,8 +36,8 @@
 		094C98B71AE8D8CB00214965 /* XDSPictureViewerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XDSPictureViewerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		094C98BC1AE8D8CB00214965 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		094C98BD1AE8D8CB00214965 /* XDSPictureViewerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XDSPictureViewerTests.m; sourceTree = "<group>"; };
-		094C98C71AE8D90F00214965 /* PictureViewerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PictureViewerViewController.h; sourceTree = "<group>"; };
-		094C98C81AE8D90F00214965 /* PictureViewerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PictureViewerViewController.m; sourceTree = "<group>"; };
+		094C98C71AE8D90F00214965 /* XDSPictureViewerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XDSPictureViewerViewController.h; sourceTree = "<group>"; };
+		094C98C81AE8D90F00214965 /* XDSPictureViewerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XDSPictureViewerViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,8 +81,8 @@
 			children = (
 				094C98A51AE8D8CB00214965 /* AppDelegate.h */,
 				094C98A61AE8D8CB00214965 /* AppDelegate.m */,
-				094C98C71AE8D90F00214965 /* PictureViewerViewController.h */,
-				094C98C81AE8D90F00214965 /* PictureViewerViewController.m */,
+				094C98C71AE8D90F00214965 /* XDSPictureViewerViewController.h */,
+				094C98C81AE8D90F00214965 /* XDSPictureViewerViewController.m */,
 				094C98AE1AE8D8CB00214965 /* Images.xcassets */,
 				094C98B01AE8D8CB00214965 /* LaunchScreen.xib */,
 				094C98A11AE8D8CB00214965 /* Supporting Files */,
@@ -216,7 +216,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				094C98A71AE8D8CB00214965 /* AppDelegate.m in Sources */,
-				094C98C91AE8D90F00214965 /* PictureViewerViewController.m in Sources */,
+				094C98C91AE8D90F00214965 /* XDSPictureViewerViewController.m in Sources */,
 				094C98A41AE8D8CB00214965 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

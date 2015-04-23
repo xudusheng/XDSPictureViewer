@@ -6,19 +6,19 @@
 //  Copyright (c) 2015年 zhengda. All rights reserved.
 //
 
-#import "PictureViewerViewController.h"
+#import "XDSPictureViewerViewController.h"
 #define kScreenWidth [UIScreen mainScreen].bounds.size.width
 #define kScreenHeigh [UIScreen mainScreen].bounds.size.height
 #define kmaxScale 2.0f
 #define kminScale 1.0f
 #define knormalScale 1.0f
-@interface PictureViewerViewController ()<UIScrollViewDelegate>{
+@interface XDSPictureViewerViewController ()<UIScrollViewDelegate>{
     UIScrollView * _scrollView;
     NSInteger page;
 }
 @end
 
-@implementation PictureViewerViewController
+@implementation XDSPictureViewerViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
